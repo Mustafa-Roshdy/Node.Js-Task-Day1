@@ -1,6 +1,5 @@
 const fs = require("fs")
 const http = require("http");
-const { json } = require("stream/consumers");
 
 let data = [{ "name": "p1", "color": "red", "price": 100 },
 { "name": "p2", "color": "blue", "price": 200 },
